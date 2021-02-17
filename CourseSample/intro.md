@@ -1,3 +1,3 @@
-In this scenario, you will learn how to create a course, a series of Katacoda scenarios collected together. 
+In this lab, you will learn how to find the current working directory, system information and the environment details. 
 
-The advantage of creating a course is the ability to group related scenarios to provide users with a clear explanation and order to complete the content.
+The advantage of knowing these details will give you the ability to know what level of access is provided to you in the operating system. 

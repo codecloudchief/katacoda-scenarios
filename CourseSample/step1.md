@@ -2,22 +2,35 @@ In Linux operating system you should know the directory where you are and as wha
 
 These two determines what level of access you have been provided, for example whether you are an adminstritative user or normal user. 
 
-Administrative privileges are given through a utility called as sudo
+Administrative privileges are given through a command called as **sudo -l** or in the **/etc/sudoers** confifguration file.
 
-## Current working direcoty
+## Current working directory
 
-Know the directory with the command `pwd`{{execute}}
+Know the current working directory with the command `pwd`{{execute}}
 
-Within the root of a repository, a course has been created called `uilayouts`. The contents of the course have been defined as `katacoda-scenario-examples/uilayouts-pathway.json`{{open}}.
+Find the system information including hostname, kernel, OS release, version, processor, hardware architecture, hostname and OS name.
 
-Within the JSON file, the courses element defines each scenario. For example:
+Know these details about the system with the command `uname -a`{{execute}}
 
-<pre class="file">
-{
-    "course_id": "uilayout-terminal",
-    "title": "Scenario with Terminal UI",
-    "description": "Katacoda Scenario Example"
-},
-</pre>
+If you want to know any of the these details individually
 
-The **course_id** is the scenario name directory within the course directory. For example `ls katacoda-scenario-examples/uilayouts/uilayout-terminal`{{execute}}. The **title** and **description** are shown on the course page.
+Run `uname -s`{{execute}} to know the OS name.
+
+Run `uname -r`{{execute}} to know the release.
+
+Run `uname -v`{{execute}} to know the version.
+
+Run `uname -m`{{execute}} to know machine hardware name.
+
+Run `uname -p`{{execute}} to know processor type.
+
+Run `uname -i`{{execute}} to know hardware platform.
+
+Run `uname -o`{{execute}} to know operating system.
+
+Run `uname -n`{{execute}} to know the hostname.
+
+
+
+
+

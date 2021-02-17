@@ -4,19 +4,19 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Finding Current Working Directory",
+        "title": "Step 1 - Linux System Information",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Linux System Information",
+        "title": "Step 2 - Directory Structure",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Using katacoda CLI to create a course",
+        "title": "Step 3 - Creating Files and Directories",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Using katacoda CLI to add existing scenarios to a course",
+        "title": "Step 4 - Viewing files",
         "text": "step4.md"
       }
     ],
@@ -28,7 +28,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "uilayout-editor-terminal"
   },
   "backend": {
     "imageid": "nodejs:12"

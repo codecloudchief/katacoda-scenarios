@@ -38,7 +38,7 @@ To know the os release you can also run the command `cat /etc/os-release`{{execu
 
 ## Your ID Details
 
-Know the user id, group id with the command `id`
+Know the user id, group id with the command `id`{{execute}}
 
 This will give you enough system about where you are (current directory), what OS you are using and who(id) you are in the system. This determines the actions you can perform in the system.
 

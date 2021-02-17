@@ -1,0 +1,1 @@
+Congratulations, you have learned how to find system information in Linux OS.

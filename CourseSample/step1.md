@@ -2,11 +2,13 @@ In Linux operating system you should know the directory where you are and as wha
 
 These two determines what level of access you have been provided, for example whether you are an adminstritative user or normal user. 
 
-Administrative privileges are given through a command called as **sudo -l** or in the **/etc/sudoers** confifguration file.
+Administrative privileges are given through a command called as **sudo** which we will cover in the upcoming labs.
 
 ## Current working directory
 
 Know the current working directory with the command `pwd`{{execute}}
+
+## Linux System Information
 
 Find the system information including hostname, kernel, OS release, version, processor, hardware architecture, hostname and OS name.
 
@@ -30,7 +32,15 @@ Run `uname -o`{{execute}} to know operating system.
 
 Run `uname -n`{{execute}} to know the hostname.
 
+You have learned how to find system information using **uname** command. 
 
+To know the os release you can also run the command `cat /etc/os-release`{{execute}}
+
+Know the details of the users who have logged in with the command `who`{{execute}}
+
+Know the user id, group id with the command `id`
+
+This will give you enough system about where you are (current directory), what OS you are using and who(id) you are in the system. This determines the actions you can perform in the system.
 
 
 

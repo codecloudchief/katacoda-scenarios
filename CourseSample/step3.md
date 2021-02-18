@@ -6,7 +6,7 @@ Know how to create an empty zero byte file with the command `touch file1`{{execu
 
 Know how to create a file with contents with the command `cat > file1`{{execute}}, type the contents inside the file. 
 
-Once you are done then press `ctrl + d`{{execute}} in the keyboard to save and exit the file.
+Once you are done then press `ctrl + d` in the keyboard to save and exit the file.
 
-Now that you have created the file, you can view the contents of the file `cat file`{{execute}}
+Now that you have created the file, you can view the contents of the file `cat file1`{{execute}}
 

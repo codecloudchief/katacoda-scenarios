@@ -1,7 +1,8 @@
 In this first scenario, we'll explore how you can start and connect to your first container using Docker. The environment has been configured with the latest version of the Docker Engine and client which can be accessed via the command line.
 
 The machine name Docker is running on is called docker. If you want to access any of the services, then use docker instead of localhost or 0.0.0.0.
-What Is Docker?
+
+## What Is Docker?
 
 Docker describes themselves as "an open platform for developers and sysadmins to build, ship, and run distributed applications".
 

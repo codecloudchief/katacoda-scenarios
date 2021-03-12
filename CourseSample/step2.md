@@ -1,23 +1,28 @@
-Now that you have got the information about the OS environment. It's time for you to know the user environment details. 
+Now that you have got the information about the OS and user environment. It's time for you to know how to create files and directories. 
 
-A user environment details include the SHELL, HOME DIRECTORY, PATH, HOSTNAME and much more.
+File is where data is stored and directories are just a pointer and container of files.
 
-Know the details of your user environment variables with the command `env`{{execute}} 
+## File Creation
 
-It would display all your environment details, at this stage get the essential information needed for you as beginner.
+A file can be created in multiple ways, in this lab you will learn how to create it using `touch`, `cat` and `vi`(High level, refer detailed VI Editor course for additional in depth understanding of it)
 
-Run `echo $SHELL`{{execute}} to know the shell that has been assigned to you.
+Know how to create an empty file with `touch file1`.
 
-Run `echo $HOME`{{execute}} to know your home directory.
+Know how to create a file using `cat > file2`, the `>` symbol after `cat` command denotes to create a file.
 
-Run `echo $HOSTNAME`{{execute}} to know your linux host name or node name.
+Type the contents of the file like `This is file2 contents`{{execute}}, then press `ctrl + d` to save and exit the file.
 
-Run `echo $PATH`{{execute}} to know path that has been set for you. This determines what commands have been included in your path, so you could directly run commands like pwd. If the command or utilities path are not set you have use the full path of the command.
+View the contents of the file you created using `cat file2` command.
 
-Actual path of pwd command is /bin/pwd, you can find that by running the command `which pwd`{{execute}}
+Now let's append the **file2** with additional content, with the command `cat >> file2`. The `>>` symbol after `cat` command denotes to append a file with new content at the end of the file.
 
-For example, if /bin is not included in your path you may not able to run even basic commands like pwd. The actual path of pwd command is `/bin/pwd`{{execute}}. In Linux everything is treated as file including the commands (like pwd, ps, ls and so on). 
+`vi` is command based editor and `nano` is simple text editor and are the other ways to create/edit files. 
+
+Know how to create multiple zero byte file with `touch file3 file4 file5`. 
+
+Run `ls`{{execute}} to list the files in your current working directory `pwd`{{execute}}
+
+Run `ls -l`{{execute}} to long list the files in your current working directory `pwd`{{execute}}
 
 
-
-**Note:** If PATH is not set properly you might get command not found error even though those utilities or commands are installed in your system. So it's important to know the PATH that has been assigned.
+Next step is to create a directories in Linux OS. 

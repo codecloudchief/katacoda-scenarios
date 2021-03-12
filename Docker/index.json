@@ -1,13 +1,31 @@
 {
-  "title": "Docker",
-  "description": "This lab covers docker fundamental operations",
-  "difficulty": "Beginner",
-  "time": "10",
+  "title": "Launching a Docker Container",
+  "description": "Launching Containers",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Running A Container",
         "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Listing Running Containers",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Binding Ports",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Biding Ports",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - WebHooks",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - WebHooks",
+        "text": "step6.md"
       }
     ],
     "intro": {

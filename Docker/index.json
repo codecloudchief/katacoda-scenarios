@@ -20,11 +20,11 @@
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - WebHooks",
+        "title": "Step 5 - Binding Directories",
         "text": "step5.md"
-      },
+      },  
       {
-        "title": "Step 6 - WebHooks",
+        "title": "Step 6 - Running A Container In The Foreground",
         "text": "step6.md"
       }
     ],

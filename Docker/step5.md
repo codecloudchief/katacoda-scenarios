@@ -1,4 +1,4 @@
-Step 5 - Binding Directories
+
 
 So far, we've started containers and made them accessible by mounting ports. The next step is handling data.
 
@@ -12,7 +12,6 @@ Protip
 
 Docker allows you to use $PWD as a placeholder for the current directory. For example, the directory above could be replaced with "$PWD/data".
 
-## Task
 ## Binding Directories
 
 `docker run -d --name redisMapped -v "$PWD/data":/data redis`{{execute}}

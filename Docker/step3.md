@@ -1,5 +1,4 @@
 
-## Step 3 - Listing Running Containers
 
 As described in the introduction, each container is sandboxed from other containers. If a service needs to be accessible externally, then you need to expose a port to be mapped to the host. Once mapped, you will then be able to access the service as if the process was running on the host OS itself instead of in a container.
 
